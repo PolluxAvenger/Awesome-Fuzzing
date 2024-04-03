@@ -33,15 +33,15 @@ Awesome Fuzzing Resources
 
 *关于 fuzzing 的书籍*
 
-+ [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) 作者： Michael Sutton, Adam Greene, Pedram Amini
+- [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) 作者： Michael Sutton, Adam Greene, Pedram Amini
 
-+ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) 作者： Ari Takanen, Charles Miller, Jared D Demott
+- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507) 作者： Ari Takanen, Charles Miller, Jared D Demott
 
-+ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron, Noam Rathaus
+- [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron, Noam Rathaus
 
-+ [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) 作者： Justin Seitz
+- [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) 作者： Justin Seitz
 
-+ [The Fuzzing Book](https://www.fuzzingbook.org/) 作者： Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler.
+- [The Fuzzing Book](https://www.fuzzingbook.org/) 作者： Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler.
 
 
 > **Note:** 下列书籍中的部分章节也描述了 fuzzing
@@ -68,7 +68,7 @@ Awesome Fuzzing Resources
 
 [Modern Binary Exploitation ( RPISEC ) - Chapter 15 ](https://github.com/RPISEC/MBE) - RPISEC 出品
 
-[Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - W. Owen Redwood 和 Prof. Xiuwen Liu 出品
+[Offensive Computer Security - Week 6](https://web.archive.org/web/20200414165953/https://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - W. Owen Redwood 和 Prof. Xiuwen Liu 出品
 
 <a name="paid" />
 
@@ -83,6 +83,8 @@ Awesome Fuzzing Resources
 [Ada Logics - 应用源码 Fuzzing](https://adalogics.com/training-source-fuzz)
 
 [FuzzingLabs 学院（C/C++、Rust、Go）](https://academy.fuzzinglabs.com/)
+
+[Signal Labs - 漏洞研究与 Fuzzing](https://signal-labs.com/trainings/vulnerability-research-fuzzing/)
 
 <a name="videos" />
 
@@ -159,6 +161,7 @@ Awesome Fuzzing Resources
 [Fuzzing 博客](https://fuzzinginfo.wordpress.com/resources/) - fuzzing.info 出品 
 
 [Root Cause Analysis of the Crash during Fuzzing](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - Corelan Team 出品
+
 [Root cause analysis of integer flow](https://www.corelan.be/index.php/2013/07/02/root-cause-analysis-integer-overflows/) - Corelan Team 出品
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - Open Security Research 出品
@@ -174,8 +177,11 @@ Awesome Fuzzing Resources
 ##### Peach Fuzzer 相关教程
 
 [Peach 上手指南](http://community.peachfuzzer.com/v2/PeachQuickstart.html)
+
 [使用 Peach 进行 Fuzzing Part 1](http://www.flinkd.org/2011/07/fuzzing-with-peach-part-1/) - Jason Kratzer of corelan team 出品
+
 [使用 Peach 进行 Fuzzing Part 2](http://www.flinkd.org/2011/11/fuzzing-with-peach-part-2-fixups-2/) - Jason Kratzer of corelan team 出品 
+
 [Peach pit 文件的自动生成](http://doc.netzob.org/en/latest/tutorials/peach.html) - Frédéric Guihéry, Georges Bossert 出品
 
 ##### AFL Fuzzer 相关教程
@@ -242,7 +248,6 @@ Awesome Fuzzing Resources
 
 [Fuzzing with FOE](https://samsclass.info/127/proj/p16-fuzz.htm) - Samclass.info 出品
 
-
 ##### SMT/SAT 求解器教程
 
 [Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Z3 快速上手指南
@@ -264,6 +269,8 @@ Awesome Fuzzing Resources
 
 [Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - 在云环境中自动、便易地进行云 Fuzzing 的框架
 
+[ClusterFuzzer](https://google.github.io/clusterfuzz/) - ClusterFuzzer 可扩展的开源 Fuzzing 框架，Google 为 Chrome 浏览器开发
+
 [Fuzzit](https://fuzzit.dev) - Fuzzit 是一个 Fuzzing 即服务的平台，被 systemd, radare2 等多个开源\闭源项目使用，想加入请联系 oss@fuzzit.dev
 
 ### 文件格式 Fuzzer
@@ -278,7 +285,7 @@ Awesome Fuzzing Resources
 
 [针对 PE 文件进行静态二进制插桩辅助、结合 WinAFL 的 Fuzzer](https://github.com/wmliang/pe-afl)
 
-[MiniFuzz](https://www.microsoft.com/en-sg/download/details.aspx?id=21769) - Microsoft 出品的基础文件格式 fuzzing 工具
+[MiniFuzz](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Microsoft 出品的基础文件格式 fuzzing 工具
 
 [BFF from CERT](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974) - 基础文件格式 fuzzing 框架
 
@@ -294,7 +301,7 @@ Awesome Fuzzing Resources
 
 [Peach Fuzzer](https://sourceforge.net/projects/peachfuzz/) - 帮助创建传统 dumb 以及小型 fuzzer 的框架
 
-[MozPeach](https://github.com/MozillaSecurity/peac://github.com/MozillaSecurity/peach) - 由 Mozilla Security 开发基于 peach 2.7 版本的分支版本
+[MozPeach](https://github.com/MozillaSecurity/peach) - 由 Mozilla Security 开发基于 peach 2.7 版本的分支版本
 
 [Failure Observation Engine (FOE)](https://vuls.cert.org/confluence/display/tools/CERT+FOE+-+Failure+Observation+Engine) - 基于畸形文件的 Windows 程序 Fuzzing 工具
 
@@ -309,6 +316,10 @@ Awesome Fuzzing Resources
 [binspector](https://github.com/binspector/binspector) - 二进制格式分析与模糊测试工具
 
 [grammarinator](https://github.com/renatahodovan/grammarinator) - 基于 ANTLR v4 语法的文件格式模糊测试工具（ANTLR 项目已有大量的语法）
+
+[Sloth](https://github.com/ant4g0nist/sloth) - Sloth 是基于覆盖度的 Fuzzing 框架，使用 libFuzzer 和 QEMU 对安卓原生库进行 Fuzzing
+
+[ManuFuzzer](https://github.com/ant4g0nist/ManuFuzzer) - 使用 libFuzzer 与 LLVM 开发、基于覆盖度的 macOS 二进制 fuzzer
 
 <a name="network-protocol-fuzzers" />
 
@@ -344,7 +355,11 @@ Awesome Fuzzing Resources
 
 ### 浏览器Fuzzer
 
-[BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
+[BFuzz](https://github.com/RootUp/BFuzz) - 浏览器 Fuzzing 框架
+
+[Fuzzinator](https://github.com/renatahodovan/fuzzinator) - Fuzzinator 是随机测试框架
+
+[Grizzly](https://github.com/MozillaSecurity/grizzly) - 跨平台浏览器 Fuzzing 框架
 
 <a name="Misc" />
 
@@ -376,6 +391,12 @@ Awesome Fuzzing Resources
 
 [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - 基于 libFuzzer、基于覆盖度的 JVM 模糊测试框架
 
+[cifuzz](https://github.com/CodeIntelligenceTesting/cifuzz) - 支持多语言的、基于覆盖度的命令行 Fuzzing 工具
+
+[WebGL Fuzzer](https://github.com/ant4g0nist/webgl-fuzzer) - 针对 WebGL 的 Fuzzer
+
+[fast-check](https://fast-check.dev/) - TypeScript 开发的、针对非预期 JavaScript 代码的 fuzzer
+
 <a name="taint-analysis" />
 
 ### 流分析（用户输入如何影响执行）
@@ -392,11 +413,11 @@ Awesome Fuzzing Resources
 
 ### 符号执行 + SAT/SMT 求解器
 
-[Z3](https://github.com/Z3Prover/z3)
+[Z3](https://github.com/Z3Prover/z3) - 微软研究的约束求解器
 
-[SMT-LIB](http://smtlib.cs.uiowa.edu/) 
+[SMT-LIB](http://smtlib.cs.uiowa.edu/) - 旨在促进 SMT 理论的研究
 
-[使用 KLEE 进行符号执行](https://adalogics.com/blog/symbolic-execution-with-klee) - 四个介绍 KLEE 的教学视频，介绍如何开始使用 KLEE 并在实际代码中发现内存损坏漏洞。
+[使用 KLEE 进行符号执行](https://adalogics.com/blog/symbolic-execution-with-klee) - 四个介绍 KLEE 的教学视频，介绍如何开始使用 KLEE 并在实际代码中发现内存损坏漏洞
 
 ### 参考
 
